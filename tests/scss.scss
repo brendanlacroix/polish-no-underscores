@@ -1,0 +1,15 @@
+.fails_for_sure {
+  color: red;
+}
+
+.this-rule-wont-fail {
+  color: green;
+}
+
+.this-rule-wont-fail-either {
+  color: green
+
+  .but_this_does {
+    color: red;
+  }
+}

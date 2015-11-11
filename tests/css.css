@@ -1,0 +1,19 @@
+.fail_here {
+  color: red;
+}
+#not-here {
+  color: red;
+}
+
+.but_definitely-here {
+  color: green;
+}
+
+.this-rule-should-fail-too .because_of_this {
+  color: red;
+}
+
+.and-this,
+.too_shall_fail {
+  color: red;
+}
